@@ -1,0 +1,55 @@
+Problem 1
+Write test cases for calculator of shipping
+
+Url: https://onex.am
+
+  
+
+ANSWER
+
+First we must check if we can choose the country ,the type of item,the type of shipping ant the parameters of item
+
+Test Cases
+
+1)when the country is America,the type of shipping is air transportation , the type of item is online shopping 
+and th eactual weight of item is 2 pound(2 kilograms) the value of shipping must be 3629 AMD(8000  AMD).
+If the type of item is personal parcel ,the value of shipping must be 20 USD.
+
+when the country is America,the type of shipping is sea shipping , the type of item is online shopping ,
+the hight of item is 4 inch (centimeter),the weight is 4 inch (centimeter),the width is 4 inch (centimeter),
+and the actual weight of item is 2 pound(2 kilograms) ,the value of shipping must be 12000 AMD.
+If the type of item is personal parcel, the value of shipping must be 25 USD.
+
+
+2)when the country is America(new),the type of shipping is air  transportation or sea shipping , the type of item is online shopping ,
+and the actual weight of item is 5 pound(5 kilograms) ,the value of shipping must be 5443 AMD (12000 AMD).
+If the type of item is personal parcel ,the value of shipping must be 20 USD.
+
+
+3)when the country is Russia,the type of shipping is air transportation , the type of item is online shopping ,
+the hight of item is 5 inch (centimeter),the weight is 5 inch (centimeter),the width is 5 inch (centimeter),
+and the actual weight of item is 5 pound(5 kilograms) ,the value of shipping must be  4536 AMD (10000 AMD).
+
+In this case  the type of shipping can not be  sea shipping and  the type of item can not be personal parcel .
+If we try choose that cases ,the value of shipping must be the same value as in previous case .
+
+
+4)when the country is Great Britain,the type of shipping is air transportation , the type of item is online shopping ,
+ 12 pound(12 kilograms) ,the value of shipping must be  21772 AMD (48000 AMD).
+
+In this case  the type of shipping can not be  sea shipping and  the type of item can not be personal parcel .
+If we try choose that cases ,the value of shipping must be the same value as in previous case .
+
+
+5)when the country is China ,the type of shipping is air transportation , the type of item is online shopping ,
+ 9 pound(9 kilograms) ,the value of shipping must be  16329 AMD (36000 AMD).
+
+In this case  the type of shipping can not be  sea shipping and  the type of item can not be personal parcel .
+If we try choose that cases ,the value of shipping must be the same value as in previous case .
+
+
+
+
+
+
+
